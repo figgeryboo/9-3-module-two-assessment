@@ -1,0 +1,15 @@
+body:not(.input) {
+    background-color: lavender;
+    font-family: monospace;
+}
+
+header {
+    background-color: skyblue;
+    width: 75%;
+}
+
+@media (max-width: 500px) {
+    #reviews {
+        display: none;
+    }
+}
